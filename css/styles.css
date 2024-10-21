@@ -11,6 +11,10 @@
   --font-family: "Plus Jakarta Sans", sans-serif;
 }
 
+.pink_gradient{
+  background: var(--gradient-pink) !important;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -42,7 +46,6 @@ a{
 }
 
 .nav_header{
-  /* width: 90%; */
   margin: auto;
   padding: 1rem 2rem;
   display: flex;
@@ -58,6 +61,7 @@ a{
   border-radius: 2rem;
   color: var(--white);
   font-weight: bold;
-  
 }
+
+
 
