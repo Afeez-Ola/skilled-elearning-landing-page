@@ -32,4 +32,32 @@ body, input, button {
 button {
  cursor: pointer;
 }
+a{
+  text-decoration: none;
+}
+
+.main_container{
+  margin: auto;
+
+}
+
+.nav_header{
+  /* width: 90%; */
+  margin: auto;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.get_started_button{
+  padding: 1rem 3rem;
+  background: var(--blue-900);
+  border-radius: 2rem;
+  color: var(--white);
+  font-weight: bold;
+  
+}
 
