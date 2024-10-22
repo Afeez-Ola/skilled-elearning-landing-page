@@ -36,7 +36,7 @@
   letter-spacing: 0px;
 }
 .text_preset_5{
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-weight: 700;
   line-height: 150%;
   letter-spacing: 0px;
@@ -47,8 +47,8 @@
   line-height: 150%;
   letter-spacing: 0px;
 }
-.text_preset_6{
-  font-size: 1.2rem;
+.text_preset_7{
+  font-size: 1rem;
   font-weight: bold;
   line-height: 150%;
   letter-spacing: 0px;
@@ -107,6 +107,7 @@ a{
 }
 
 .cta_section{
+  margin-top: 3rem;
   width: 90%;
   margin: 2rem auto;
   display: flex;
@@ -122,16 +123,27 @@ a{
 }
 
 .cta_menu h1{
-  font-size: 2.5rem;
-  font-weight: bolder;
   color: var(--blue-900);
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .cta_menu p{
-  font-size: 1.2rem;
+  width: 95%;
   font-weight: 600;
 }
 
+.cta_button{
+  background: var(--gradient-pink);
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  color: var(--white);
+  width: 50%;
+  margin: 3rem 0;
+}
+
+.cta_image{
+  width: 100%;
+  max-width: 30rem;
+}
 
 
