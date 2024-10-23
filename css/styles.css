@@ -100,7 +100,8 @@ a {
 }
 
 .get_started_button {
-  padding: 1rem 3rem;
+  padding: 0.8rem 2rem;
+
   background: var(--blue-900);
   border-radius: 2rem;
   color: var(--white);
@@ -135,7 +136,8 @@ a {
 
 .cta_button {
   background: var(--gradient-pink);
-  padding: 1rem 3rem;
+  padding: 0.8rem 2rem;
+
   border-radius: 2rem;
   color: var(--white);
   width: 50%;
@@ -156,52 +158,51 @@ a {
 }
 
 .course_intro_header {
-background: var(--gradient-pink);
+  background: var(--gradient-pink);
   /* padding: 1.8rem 4rem; */
   border-radius: 1rem;
 }
 
-.course_intro_header p{
+.course_intro_header p {
   text-align: left;
   color: var(--white);
   font-size: 1.6rem;
   padding: 2rem;
 }
 
-.card{
-      padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: baseline;
-    gap: 1.5rem;
-    background: white;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-    margin: 1rem auto;
+.card {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  gap: 1.5rem;
+  background: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 1rem auto;
   border-radius: 1rem;
-
 }
 
-.card_note{
-      display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1.5rem;
+.card_note {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
-.card_note h3{
+.card_note h3 {
   color: var(--blue-900);
 }
 
-.card_note p{
+.card_note p {
   font-weight: bold;
 }
 
-.get_started_card{
+.get_started_card {
   color: var(--pink-600);
 }
 
-.footer{
+.footer {
   margin-top: 2rem;
   padding: 1rem 2rem;
   display: flex;
@@ -211,6 +212,18 @@ background: var(--gradient-pink);
   background: var(--blue-900);
 }
 
-.get_started_footer{
+.get_started_footer {
   background: var(--gradient-purple);
+}
+
+@media screen and (min-width: 45rem) {
+  .cta_section {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .cta_menu,
+  .cta_image_container {
+    flex: 1;
+  }
 }
