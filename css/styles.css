@@ -1,60 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
-:root{
-  --blue-900: #13183F;
-  --blue-600: #666CA3;
-  --pink-600: #F74780;
-  --pink-300: #FFA7C3;
-  --grey: #83869A;
-  --white: #FFFFFF;
+:root {
+  --blue-900: #13183f;
+  --blue-600: #666ca3;
+  --pink-600: #f74780;
+  --pink-300: #ffa7c3;
+  --grey: #83869a;
+  --white: #ffffff;
   --gradient-pink: linear-gradient(hsl(322, 87%, 55%), hsl(13, 100%, 64%));
-  --gradient-purple: linear-gradient(#4851FF, #F02AA6);
-  --font-family: "Plus Jakarta Sans", sans-serif;
+  --gradient-purple: linear-gradient(#4851ff, #f02aa6);
+  --font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-.text_preset_1{
+.text_preset_1 {
   font-size: 2.5rem;
   font-weight: bolder;
   line-height: 120%;
   letter-spacing: 0px;
 }
-.text_preset_2{
+.text_preset_2 {
   font-size: 2.3rem;
   font-weight: bolder;
   line-height: 120%;
   letter-spacing: 0px;
 }
-.text_preset_3{
+.text_preset_3 {
   font-size: 2rem;
   font-weight: bolder;
   line-height: 120%;
   letter-spacing: 0px;
 }
-.text_preset_4{
+.text_preset_4 {
   font-size: 1.5rem;
   font-weight: bolder;
   line-height: 120%;
   letter-spacing: 0px;
 }
-.text_preset_5{
+.text_preset_5 {
   font-size: 1.25rem;
   font-weight: 700;
   line-height: 150%;
   letter-spacing: 0px;
 }
-.text_preset_6{
+.text_preset_6 {
   font-size: 1rem;
   font-weight: bold;
   line-height: 150%;
   letter-spacing: 0px;
 }
-.text_preset_7{
+.text_preset_7 {
   font-size: 1rem;
   font-weight: bold;
   line-height: 150%;
   letter-spacing: 0px;
 }
 
-.pink_gradient{
+.pink_gradient {
   background: var(--gradient-pink) !important;
 }
 
@@ -66,29 +66,30 @@
 }
 
 body {
- background: var(--white);
- color: var(--grey);
- -webkit-font-smoothing: antialiased;
+  background: var(--white);
+  color: var(--grey);
+  -webkit-font-smoothing: antialiased;
 }
 
-body, input, button {
- font-size: 1rem;
- font-family: var(--font-family);
+body,
+input,
+button {
+  font-size: 1rem;
+  font-family: var(--font-family);
 }
 
 button {
- cursor: pointer;
+  cursor: pointer;
 }
-a{
+a {
   text-decoration: none;
 }
 
-.main_container{
+.main_container {
   margin: auto;
-
 }
 
-.nav_header{
+.nav_header {
   margin: auto;
   padding: 1rem 2rem;
   display: flex;
@@ -97,8 +98,7 @@ a{
   align-items: center;
 }
 
-
-.get_started_button{
+.get_started_button {
   padding: 1rem 3rem;
   background: var(--blue-900);
   border-radius: 2rem;
@@ -106,7 +106,7 @@ a{
   font-weight: bold;
 }
 
-.cta_section{
+.cta_section {
   margin-top: 3rem;
   width: 90%;
   margin: 2rem auto;
@@ -116,23 +116,23 @@ a{
   align-items: center;
 }
 
-.cta_menu{
+.cta_menu {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.cta_menu h1{
+.cta_menu h1 {
   color: var(--blue-900);
   margin-bottom: 2rem;
 }
 
-.cta_menu p{
+.cta_menu p {
   width: 95%;
   font-weight: 600;
 }
 
-.cta_button{
+.cta_button {
   background: var(--gradient-pink);
   padding: 1rem 3rem;
   border-radius: 2rem;
@@ -141,9 +141,28 @@ a{
   margin: 3rem 0;
 }
 
-.cta_image{
+.cta_image {
   width: 100%;
   max-width: 30rem;
 }
 
+.courses_section {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
 
+.course_intro_header {
+background: var(--gradient-pink);
+  /* padding: 1.8rem 4rem; */
+  border-radius: 1rem;
+}
+
+.course_intro_header p{
+  text-align: left;
+  color: var(--white);
+  font-size: 1.6rem;
+  padding: 2rem;
+}
