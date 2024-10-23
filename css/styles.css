@@ -96,6 +96,7 @@ a {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  max-width: 70rem;
 }
 
 .get_started_button {
@@ -175,8 +176,10 @@ background: var(--gradient-pink);
     align-items: baseline;
     gap: 1.5rem;
     background: white;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
     margin: 1rem auto;
+  border-radius: 1rem;
+
 }
 
 .card_note{
@@ -196,4 +199,18 @@ background: var(--gradient-pink);
 
 .get_started_card{
   color: var(--pink-600);
+}
+
+.footer{
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--blue-900);
+}
+
+.get_started_footer{
+  background: var(--gradient-purple);
 }
