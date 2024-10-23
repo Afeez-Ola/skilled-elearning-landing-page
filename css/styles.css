@@ -225,5 +225,15 @@ a {
   .cta_menu,
   .cta_image_container {
     flex: 1;
+    width: 100%;
+  }
+
+  .cta_image{
+    content: url('/assets/image-hero-tablet@2x.png');
+    width: 200%;
+    max-width: none;
+    height: auto;
+    position: relative;
+    bottom: 10rem;
   }
 }
