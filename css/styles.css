@@ -226,12 +226,16 @@ a {
 
 .footer {
   margin-top: 6rem;
-  padding: 1rem 2rem;
-  display: flex;
+  background: var(--blue-900);
+}
+.footer_item{
+display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background: var(--blue-900);
+  margin: auto;
+  padding: 1rem 2rem;
+
 }
 
 .get_started_footer {
@@ -245,6 +249,10 @@ a {
 
 .get_started_footer:hover {
   background: var(--gradient-purple-hover);
+}
+
+.footer_item{
+  max-width: 70rem;
 }
 
 @media screen and (min-width: 45rem) {
