@@ -14,10 +14,9 @@
   --gradient-purple: linear-gradient(#4851ff, #f02aa6);
 
   --gradient-purple-hover: linear-gradient(
-    #4851ff 100%,
-    #f02aa6 100%,
-    rgba(255, 255, 255, 0.5) 50%
-  );
+  hsl(237, 100%, 80%), 
+  hsl(320, 85%, 75%)   
+);
   --font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
@@ -236,6 +235,11 @@ a {
 }
 
 .get_started_footer {
+  padding: 0.8rem 2rem;
+  border-radius: 2rem;
+  color: var(--white);
+  font-weight: bold;
+  cursor: pointer;
   background: var(--gradient-purple);
 }
 
