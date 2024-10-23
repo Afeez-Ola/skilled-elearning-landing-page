@@ -10,7 +10,7 @@ This is a solution to the [Skilled e-learning landing page challenge on Frontend
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Afeez-Ola/skilled-elearning-landing-page)
-- Live Site URL: [Add live site URL here](https://bento-grid-main-omega.vercel.app/)
+- Live Site URL: [Add live site URL here](https://skilled-elearning-landing-page-sandy-five.vercel.app/)
 
 ## My process
 
