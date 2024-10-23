@@ -77,6 +77,9 @@ button {
   font-size: 1rem;
   font-family: var(--font-family);
 }
+a {
+  cursor: pointer;
+}
 
 button {
   cursor: pointer;
@@ -91,7 +94,7 @@ a {
 
 .nav_header {
   margin: auto;
-  padding: 1rem 2rem;
+  padding: 2rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -159,7 +162,6 @@ a {
 
 .course_intro_header {
   background: var(--gradient-pink);
-  /* padding: 1.8rem 4rem; */
   border-radius: 1rem;
 }
 
@@ -203,7 +205,7 @@ a {
 }
 
 .footer {
-  margin-top: 2rem;
+  margin-top: 6rem;
   padding: 1rem 2rem;
   display: flex;
   flex-direction: row;
@@ -228,7 +230,7 @@ a {
     width: 100%;
   }
 
-  .cta_image{
+  .cta_image {
     content: url('/assets/image-hero-tablet@2x.png');
     width: 200%;
     max-width: none;
@@ -237,25 +239,44 @@ a {
     bottom: 8rem;
   }
 
-  .courses_section{
+  .courses_section {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 2rem;
   }
 
-  .course_intro_header{
-    flex: 1 1;
-        min-width: 15rem;
+  .course_intro_header {
+    flex: 1 1 calc(33.333% - 2rem);
+    min-width: 18rem;
   }
 
-.course_intro_header p{
-  font-size: 1.4rem;
-  line-height: 1.2;
+  .course_intro_header p {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .card {
+    flex: 1 1 calc(33.333% - 2rem);
+    min-width: 18rem;
+    margin: 0;
+  }
 }
 
-  .card{
-    flex: 1 1;
-    min-width: 15rem;
-    margin: 0;
+@media screen and (min-width: 60rem) {
+  .cta_image {
+    content: url('/assets/image-hero-desktop.png');
+    width: 150%;
+    max-width: none;
+    height: auto;
+    position: relative;
+    bottom: 8rem;
+  }
+
+  .cta_menu h1 {
+    font-size: 3.5rem;
+  }
+
+  .cta_menu p {
+    font-size: 1.7rem;
   }
 }
