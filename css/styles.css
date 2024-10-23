@@ -263,7 +263,7 @@ a {
 
 @media screen and (min-width: 60rem) {
   .cta_section{
-    margin-top: 8rem;
+    margin-top: 15rem;
   }
   .cta_image {
     content: url('/assets/image-hero-desktop.png');
