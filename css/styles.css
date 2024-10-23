@@ -234,6 +234,28 @@ a {
     max-width: none;
     height: auto;
     position: relative;
-    bottom: 10rem;
+    bottom: 8rem;
+  }
+
+  .courses_section{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .course_intro_header{
+    flex: 1 1;
+        min-width: 15rem;
+  }
+
+.course_intro_header p{
+  font-size: 1.4rem;
+  line-height: 1.2;
+}
+
+  .card{
+    flex: 1 1;
+    min-width: 15rem;
+    margin: 0;
   }
 }
