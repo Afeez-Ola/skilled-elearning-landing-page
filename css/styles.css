@@ -7,7 +7,17 @@
   --grey: #83869a;
   --white: #ffffff;
   --gradient-pink: linear-gradient(hsl(322, 87%, 55%), hsl(13, 100%, 64%));
+  --gradient-pink-hover: linear-gradient(
+    hsl(322, 87%, 75%),
+    hsl(322, 65%, 70%)
+  );
   --gradient-purple: linear-gradient(#4851ff, #f02aa6);
+
+  --gradient-purple-hover: linear-gradient(
+    #4851ff 100%,
+    #f02aa6 100%,
+    rgba(255, 255, 255, 0.5) 50%
+  );
   --font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
@@ -77,19 +87,19 @@ button {
   font-size: 1rem;
   font-family: var(--font-family);
 }
-a {
-  cursor: pointer;
-}
 
 button {
   cursor: pointer;
 }
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .main_container {
   margin: auto;
+  width: 80%;
+  max-width: 70rem;
 }
 
 .nav_header {
@@ -102,12 +112,17 @@ a {
   max-width: 70rem;
 }
 
-.get_started_button {
+.nav_header .get_started_button {
   padding: 0.8rem 2rem;
   background: var(--blue-900);
   border-radius: 2rem;
   color: var(--white);
   font-weight: bold;
+  cursor: pointer;
+}
+
+.get_started_button:hover {
+  background: var(--blue-600);
 }
 
 .cta_section {
@@ -144,6 +159,10 @@ a {
   width: 70%;
   margin: 3rem 0;
   max-width: 12rem;
+}
+
+.cta_button:hover {
+  background: var(--gradient-pink-hover);
 }
 
 .cta_image {
@@ -202,6 +221,9 @@ a {
 .get_started_card {
   color: var(--pink-600);
 }
+.get_started_card:hover {
+  color: var(--pink-300);
+}
 
 .footer {
   margin-top: 6rem;
@@ -215,6 +237,10 @@ a {
 
 .get_started_footer {
   background: var(--gradient-purple);
+}
+
+.get_started_footer:hover {
+  background: var(--gradient-purple-hover);
 }
 
 @media screen and (min-width: 45rem) {
@@ -262,7 +288,7 @@ a {
 }
 
 @media screen and (min-width: 60rem) {
-  .cta_section{
+  .cta_section {
     margin-top: 3rem;
   }
   .cta_image {
